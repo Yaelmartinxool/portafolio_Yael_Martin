@@ -430,7 +430,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(adjustTypingHeight, 2000);
     
     // ============ LOG EN CONSOLA MEJORADO ============
-    console.log('%c🌟 Yael Martín - Portafolio Profesional', 'color: #b74b4b; font-size: 20px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);');
+    console.log('%c🌟 Yael Martin - Portafolio Profesional', 'color: #b74b4b; font-size: 20px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);');
     console.log('%c💻 Desarrollador Full Stack - Especialista en Laravel + Vue.js', 'color: #4CAF50; font-size: 16px;');
     console.log('%c📚 TSU en Tecnologías de la Información área Desarrollo de Software Multiplataforma - Titulado', 'color: #2196F3; font-size: 14px;');
     console.log('%c🎯 Metas de aprendizaje: React.js • Node.js • TypeScript • Docker', 'color: #FF9800; font-size: 14px;');
