@@ -222,61 +222,7 @@ span {
     background-color: #b74b4b;
     box-shadow: 0 0 25px #b74b4b;
 }
-.enterprise-info {
-    background: #f0f9ff;
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    border-left: 4px solid #0ea5e9;
-}
 
-.enterprise-info p {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-/* Estilos para los tags de contexto (igual que Universitario/Equipo) */
-.education-tag {
-    background: #e3f2fd;
-    color: #1565c0;
-    border: 1px solid #bbdefb;
-}
-
-.education-tag i {
-    color: #1565c0;
-}
-
-.team-tag {
-    background: #f3e5f5;
-    color: #7b1fa2;
-    border: 1px solid #e1bee7;
-}
-
-.team-tag i {
-    color: #7b1fa2;
-}
-.enterprise-info i {
-    color: #0ea5e9;
-}
-
-.enterprise-tag {
-    background: #dbeafe;
-    color: #1e40af;
-    border: 1px solid #93c5fd;
-}
-
-.mentorship-tag {
-    background: #f0f9ff;
-    color: #0c4a6e;
-    border: 1px solid #7dd3fc;
-}
-
-.library-tag {
-    background: #fff3e0;
-    color: #e65100;
-    border: 1px solid #ffb74d;
-}
 /* Efecto de escritura */
 .typing-text {
     font-size: 3.4rem;
