@@ -222,7 +222,125 @@ span {
     background-color: #b74b4b;
     box-shadow: 0 0 25px #b74b4b;
 }
+/* Estilos para proyecto empresarial */
+.company-info {
+    background: #f0f9ff;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #0ea5e9;
+}
 
+.company-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.company-info i {
+    color: #0ea5e9;
+}
+
+.project-sub-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.project-context-badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Destacados */
+.project-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.highlight-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-top: 3px solid #0ea5e9;
+}
+
+.highlight-card i {
+    font-size: 24px;
+    color: #0ea5e9;
+    margin-bottom: 10px;
+}
+
+.highlight-card h4 {
+    margin: 8px 0;
+    color: #1e3a8a;
+    font-size: 15px;
+}
+
+.highlight-card p {
+    font-size: 13px;
+    color: #666;
+}
+
+/* Tags especiales para empresa */
+.enterprise-tag {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #93c5fd;
+}
+
+.mentorship-tag {
+    background: #f0f9ff;
+    color: #0c4a6e;
+    border: 1px solid #7dd3fc;
+}
+
+.professional-tag {
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fbbf24;
+}
+
+/* Testimonial */
+.project-testimonial {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 4px solid #10b981;
+}
+
+.project-testimonial em {
+    font-style: normal;
+    color: #334155;
+}
+
+.testimonial-author {
+    text-align: right;
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Badge de empresa en el card */
+.project-badge {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+}
 /* Efecto de escritura */
 .typing-text {
     font-size: 3.4rem;
