@@ -236,7 +236,86 @@ span {
     align-items: center;
     gap: 8px;
 }
+/* Estilos para los tags personalizados */
+.enterprise-tag {
+    background: #e8f5e9 !important;
+    color: #2e7d32 !important;
+    border: 1px solid #c8e6c9 !important;
+}
 
+.enterprise-tag i {
+    color: #2e7d32 !important;
+}
+
+.mentorship-tag {
+    background: #e3f2fd !important;
+    color: #1565c0 !important;
+    border: 1px solid #bbdefb !important;
+}
+
+.mentorship-tag i {
+    color: #1565c0 !important;
+}
+
+/* Estilos para el contenedor de información de empresa */
+.enterprise-info {
+    background: #f0f9ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #0ea5e9;
+}
+
+.enterprise-info p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.enterprise-info i {
+    color: #0ea5e9;
+}
+
+/* Estilos para tags de librerías */
+.library-tag {
+    background: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffb74d;
+}
+
+.library-tag i {
+    color: #f57c00;
+}
+
+/* Contenedor para tags de contexto */
+.project-context {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Estilos base para todos los tags */
+.tech-tag {
+    background: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tech-tag i {
+    font-size: 16px;
+}
+
+.project-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
 .enterprise-info i {
     color: #0ea5e9;
 }
