@@ -202,7 +202,29 @@ span {
     gap: 1.5rem;
     margin: 3rem 0;
 }
+/* ============ TAGS CON COLORES ESPECÍFICOS ============ */
 
+/* Mismo azul que Universitario */
+.enterprise-tag {
+    background: #e3f2fd !important;
+    color: #1565c0 !important;
+    border: 1px solid #bbdefb !important;
+}
+
+.enterprise-tag i {
+    color: #1565c0 !important;
+}
+
+/* Mismo morado que Equipo */
+.mentorship-tag {
+    background: #f3e5f5 !important;
+    color: #7b1fa2 !important;
+    border: 1px solid #e1bee7 !important;
+}
+
+.mentorship-tag i {
+    color: #7b1fa2 !important;
+}
 .social-icons a {
     display: inline-flex;
     justify-content: center;
